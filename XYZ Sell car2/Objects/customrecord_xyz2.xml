@@ -1,0 +1,59 @@
+<customrecordtype scriptid="customrecord_xyz2">
+    <allowattachments>T</allowattachments>
+    <allowinlinedetaching>T</allowinlinedetaching>
+    <allowquickadd>T</allowquickadd>
+    <enabledle>T</enabledle>
+    <enablekeywords>T</enablekeywords>
+    <enableoptimisticlocking>T</enableoptimisticlocking>
+    <enablesystemnotes>T</enablesystemnotes>
+    <iconbuiltin>T</iconbuiltin>
+    <includeinsearchmenu>T</includeinsearchmenu>
+    <includename>T</includename>
+    <shownotes>T</shownotes>
+    <recordname>XYZ2 Sell Car Form</recordname>
+    <customrecordcustomfields>
+    
+        <customrecordcustomfield scriptid="custrecord_xyz2_model">
+            <accesslevel>2</accesslevel>
+            <description></description>
+            <displaytype>NORMAL</displaytype>
+            <fieldtype>TEXT</fieldtype>
+            <label>Model</label>
+            <searchlevel>2</searchlevel>
+            <storevalue>T</storevalue>
+        </customrecordcustomfield>
+        
+         <customrecordcustomfield scriptid="custrecord_xyz2_price">
+            <accesslevel>2</accesslevel>
+            <description></description>
+            <displaytype>NORMAL</displaytype>
+            <fieldtype>TEXT</fieldtype>
+            <label>Price</label>
+            <searchlevel>2</searchlevel>
+            <storevalue>T</storevalue>
+        </customrecordcustomfield>
+        
+         <customrecordcustomfield scriptid="custrecord_xyz2_email">
+            <accesslevel>2</accesslevel>
+            <description></description>
+            <displaytype>NORMAL</displaytype>
+            <fieldtype>TEXT</fieldtype>
+            <label>Email</label>
+            <searchlevel>2</searchlevel>
+            <storevalue>T</storevalue>
+            <ismandatory>T</ismandatory>
+        </customrecordcustomfield>
+        
+         <customrecordcustomfield scriptid="custrecord_xyz2_phone">
+            <accesslevel>2</accesslevel>
+            <description></description>
+            <displaytype>NORMAL</displaytype>
+            <fieldtype>TEXT</fieldtype>
+            <label>Phone</label>
+            <searchlevel>2</searchlevel>
+            <storevalue>T</storevalue>
+            <ismandatory>T</ismandatory>
+        </customrecordcustomfield>
+        
+    </customrecordcustomfields>
+</customrecordtype>
