@@ -1,0 +1,13 @@
+<usereventscript scriptid="customscript_userevent">
+    <name>Car Gurus Test User Event</name>
+    <notifyowner>T</notifyowner>
+    <scriptfile>[/SuiteScripts/UserEventScript.js]</scriptfile>
+    <scriptdeployments>
+        <scriptdeployment scriptid="customdeploy_cg_type1">
+            <isdeployed>T</isdeployed>
+            <loglevel>DEBUG</loglevel>
+            <recordtype>[customrecord_example]</recordtype>
+            <status>TESTING</status>
+        </scriptdeployment>
+    </scriptdeployments>
+</usereventscript>

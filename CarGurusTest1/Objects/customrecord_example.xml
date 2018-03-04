@@ -1,0 +1,25 @@
+<customrecordtype scriptid="customrecord_example">
+    <allowattachments>T</allowattachments>
+    <allowinlinedetaching>T</allowinlinedetaching>
+    <allowquickadd>T</allowquickadd>
+    <enabledle>T</enabledle>
+    <enablekeywords>T</enablekeywords>
+    <enableoptimisticlocking>T</enableoptimisticlocking>
+    <enablesystemnotes>T</enablesystemnotes>
+    <iconbuiltin>T</iconbuiltin>
+    <includeinsearchmenu>T</includeinsearchmenu>
+    <includename>T</includename>
+    <shownotes>T</shownotes>
+    <recordname>CarGurusTest1</recordname>
+    <customrecordcustomfields>
+        <customrecordcustomfield scriptid="custrecord_cg_type1">
+            <accesslevel>2</accesslevel>
+            <description></description>
+            <displaytype>NORMAL</displaytype>
+            <fieldtype>TEXT</fieldtype>
+            <label>CarType1</label>
+            <searchlevel>2</searchlevel>
+            <storevalue>T</storevalue>
+        </customrecordcustomfield>
+    </customrecordcustomfields>
+</customrecordtype>
