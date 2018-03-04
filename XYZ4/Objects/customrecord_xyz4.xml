@@ -46,6 +46,7 @@
             <label>Email</label>
             <searchlevel>2</searchlevel>
             <storevalue>T</storevalue>
+            <ismandatory>T</ismandatory>
         </customrecordcustomfield>
         
         <!-- Phone Field -->
@@ -57,6 +58,7 @@
             <label>Phone</label>
             <searchlevel>2</searchlevel>
             <storevalue>T</storevalue>
+            <ismandatory>T</ismandatory>
         </customrecordcustomfield>
         
     </customrecordcustomfields>
