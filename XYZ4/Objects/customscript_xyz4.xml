@@ -1,0 +1,13 @@
+<usereventscript scriptid="customscript_xyz4">
+    <name>xyz4 Deployment Script</name>
+    <notifyowner>T</notifyowner>
+    <scriptfile>[/SuiteScripts/UserEventScriptxyz4.js]</scriptfile>
+    <scriptdeployments>
+        <scriptdeployment scriptid="customdeploy_xyz4">
+            <isdeployed>T</isdeployed>
+            <loglevel>DEBUG</loglevel>
+            <recordtype>[customrecord_xyz4]</recordtype>
+            <status>TESTING</status>
+        </scriptdeployment>
+    </scriptdeployments>
+</usereventscript>
