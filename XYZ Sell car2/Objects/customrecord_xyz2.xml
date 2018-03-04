@@ -21,6 +21,7 @@
             <label>Model</label>
             <searchlevel>2</searchlevel>
             <storevalue>T</storevalue>
+            
         </customrecordcustomfield>
         
          <customrecordcustomfield scriptid="custrecord_xyz2_price">
