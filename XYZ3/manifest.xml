@@ -1,0 +1,10 @@
+<manifest projecttype="ACCOUNTCUSTOMIZATION">
+  <projectname>XYZ3</projectname>
+  <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="true">CUSTOMRECORDS</feature>
+      <feature required="false">EXTREMELIST</feature>
+    </features>
+  </dependencies>
+</manifest>
