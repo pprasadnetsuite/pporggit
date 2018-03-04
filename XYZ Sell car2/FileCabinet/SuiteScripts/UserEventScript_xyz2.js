@@ -21,7 +21,7 @@ function() {
 		var customRecord = scriptContext.newRecord;
 		customRecord.setValue({
 		fieldId: 'custrecord_xyz2_model',
-		value: 'Tesla Model S'
+		value: 'Tesla Model X'
 		});
 		} }
 
