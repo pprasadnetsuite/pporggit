@@ -1,0 +1,13 @@
+<usereventscript scriptid="customscript_abc">
+    <name>ABC Deployment Script</name> <!-- Mandatory Field : Specify name-->
+    <notifyowner>T</notifyowner>
+    <scriptfile>[/SuiteScripts/UserEventScript_abc.js]</scriptfile> <!-- Mandatory Field : Specify path-->
+    <scriptdeployments>
+        <scriptdeployment scriptid="customdeploy_abc"> <!-- Mandatory Field : Specify scriptId-->
+            <isdeployed>T</isdeployed>
+            <loglevel>DEBUG</loglevel>
+            <recordtype>[customrecord_abc]</recordtype> <!-- Mandatory Field : Specify custom record type -->
+            <status>TESTING</status>
+        </scriptdeployment>
+    </scriptdeployments>
+</usereventscript>

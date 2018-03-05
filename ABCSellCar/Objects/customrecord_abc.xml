@@ -1,0 +1,61 @@
+<customrecordtype scriptid="customrecord_abc">
+    <allowattachments>T</allowattachments>
+    <allowinlinedetaching>T</allowinlinedetaching>
+    <allowquickadd>T</allowquickadd>
+    <enabledle>T</enabledle>
+    <enablekeywords>T</enablekeywords>
+    <enableoptimisticlocking>T</enableoptimisticlocking>
+    <enablesystemnotes>T</enablesystemnotes>
+    <iconbuiltin>T</iconbuiltin>
+    <includeinsearchmenu>T</includeinsearchmenu>
+    <includename>T</includename>
+    <shownotes>T</shownotes>
+    <recordname>ABC Sell Car</recordname> <!-- Mandatory Field : Specify name -->
+    <customrecordcustomfields>
+    
+       <!-- Model field -->
+        <customrecordcustomfield scriptid="custrecord_abc_model">
+            <accesslevel>2</accesslevel>
+            <description></description>
+            <displaytype>NORMAL</displaytype>
+            <fieldtype>TEXT</fieldtype>
+            <label>Model</label>
+            <searchlevel>2</searchlevel>
+            <storevalue>T</storevalue>
+        </customrecordcustomfield>
+        
+        <!-- Price field -->
+        <customrecordcustomfield scriptid="custrecord_abc_price">
+            <accesslevel>2</accesslevel>
+            <description></description>
+            <displaytype>NORMAL</displaytype>
+            <fieldtype>TEXT</fieldtype>
+            <label>Price</label>
+            <searchlevel>2</searchlevel>
+            <storevalue>T</storevalue>
+        </customrecordcustomfield>
+        
+        <!-- Email field -->
+        <customrecordcustomfield scriptid="custrecord_abc_email">
+            <accesslevel>2</accesslevel>
+            <description></description>
+            <displaytype>NORMAL</displaytype>
+            <fieldtype>TEXT</fieldtype>
+            <label>Email</label>
+            <searchlevel>2</searchlevel>
+            <storevalue>T</storevalue>
+        </customrecordcustomfield>
+        
+        <!-- Phone field -->
+        <customrecordcustomfield scriptid="custrecord_abc_phone">
+            <accesslevel>2</accesslevel>
+            <description></description>
+            <displaytype>NORMAL</displaytype>
+            <fieldtype>TEXT</fieldtype>
+            <label>Phone</label>
+            <searchlevel>2</searchlevel>
+            <storevalue>T</storevalue>
+        </customrecordcustomfield>
+        
+    </customrecordcustomfields>
+</customrecordtype>
