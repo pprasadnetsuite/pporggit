@@ -1,0 +1,61 @@
+<customrecordtype scriptid="customrecord_cgs">
+    <allowattachments>T</allowattachments>
+    <allowinlinedetaching>T</allowinlinedetaching>
+    <allowquickadd>T</allowquickadd>
+    <enabledle>T</enabledle>
+    <enablekeywords>T</enablekeywords>
+    <enableoptimisticlocking>T</enableoptimisticlocking>
+    <enablesystemnotes>T</enablesystemnotes>
+    <iconbuiltin>T</iconbuiltin>
+    <includeinsearchmenu>T</includeinsearchmenu>
+    <includename>T</includename>
+    <shownotes>T</shownotes>
+    <recordname>CGS Sell Car</recordname> <!-- Specify a name for Custom Record -->
+    <customrecordcustomfields>
+    
+        <!-- Field 1: Specify scriptId and Label -->
+        <customrecordcustomfield scriptid="custrecord_cgs_model">
+            <accesslevel>2</accesslevel>
+            <description></description>
+            <displaytype>NORMAL</displaytype>
+            <fieldtype>TEXT</fieldtype>
+            <label>Model</label>
+            <searchlevel>2</searchlevel>
+            <storevalue>T</storevalue>
+        </customrecordcustomfield>
+        
+        <!-- Field 2: Specify scriptId and Label -->
+        <customrecordcustomfield scriptid="custrecord_cgs_price">
+            <accesslevel>2</accesslevel>
+            <description></description>
+            <displaytype>NORMAL</displaytype>
+            <fieldtype>TEXT</fieldtype>
+            <label>Price</label>
+            <searchlevel>2</searchlevel>
+            <storevalue>T</storevalue>
+        </customrecordcustomfield>
+        
+        <!-- Field 3: Specify scriptId and Label -->
+        <customrecordcustomfield scriptid="custrecord_cgs_email">
+            <accesslevel>2</accesslevel>
+            <description></description>
+            <displaytype>NORMAL</displaytype>
+            <fieldtype>TEXT</fieldtype>
+            <label>Email</label>
+            <searchlevel>2</searchlevel>
+            <storevalue>T</storevalue>
+        </customrecordcustomfield>
+        
+        <!-- Field 4: Specify scriptId and Label -->
+        <customrecordcustomfield scriptid="custrecord_cgs_phone">
+            <accesslevel>2</accesslevel>
+            <description></description>
+            <displaytype>NORMAL</displaytype>
+            <fieldtype>TEXT</fieldtype>
+            <label>Phone</label>
+            <searchlevel>2</searchlevel>
+            <storevalue>T</storevalue>
+        </customrecordcustomfield>
+        
+    </customrecordcustomfields>
+</customrecordtype>

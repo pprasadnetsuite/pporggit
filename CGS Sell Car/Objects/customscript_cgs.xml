@@ -1,0 +1,13 @@
+<usereventscript scriptid="customscript_cgs"> <!-- Specify scriptId for script -->
+    <name>CGS User Event Script</name>
+    <notifyowner>T</notifyowner>
+    <scriptfile>[/SuiteScripts/UserEventScript_cgs.js]</scriptfile> <!-- Specify path -->
+    <scriptdeployments>
+        <scriptdeployment scriptid="customdeploy_cgs"> <!-- Specify scriptId for deployment script -->
+            <isdeployed>T</isdeployed>
+            <loglevel>DEBUG</loglevel>
+            <recordtype>[customrecord_cgs]</recordtype> <!-- Specify scriptId of custom record type -->
+            <status>TESTING</status>
+        </scriptdeployment>
+    </scriptdeployments>
+</usereventscript>
